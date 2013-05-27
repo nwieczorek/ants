@@ -1,0 +1,26 @@
+#------ environment
+title: Ants
+timer-milliseconds: 20
+world-width: 100
+world-height: 100
+cell-width : 6
+cell-height : 6
+num-states: 3
+
+as state-color
+0 : (255 255 255)
+1 : ( 0 0 0)
+2 : ( 50 160 50)
+end state-color
+
+#---- ants
+num-ant: 20
+ant-color : (255 200 50)
+
+as ant-rule
+0 : (move f f f)
+1 : (turn r l r)
+2 : (set 1 2 0)
+end ant-rule
+
+
